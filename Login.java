@@ -18,7 +18,7 @@ public class Login {
 		driver.findElement(By.cssSelector("#basic-navbar-nav > span > a > button > span\r\n")).click();
 		driver.findElement(By.name("username")).sendKeys("VuSizani");
 		driver.findElement(By.cssSelector("#root > div.MuiBox-root.css-igg69k > div > section:nth-child(3) > div > section > div.container > div > div > div > div.sign__form > form > button")).click();
-		driver.findElement(By.name("password")).sendKeys("[Vusi@23Admin1");
+		driver.findElement(By.name("password")).sendKeys("##########");
 		driver.findElement(By.cssSelector("#root > div.MuiBox-root.css-igg69k > div > section:nth-child(3) > div > section > div.container > div > div > div > div.sign__form > form > button")).click();
 		driver.getTitle();
 		File Scr1=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
